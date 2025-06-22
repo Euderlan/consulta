@@ -1,0 +1,30 @@
+# requirements.txt 
+
+# Flask básico
+Flask==2.3.3
+flask-cors==4.0.0
+Werkzeug==2.3.7
+
+# Groq para LLM (versão atualizada)
+groq>=0.8.0
+
+# Processamento de PDF
+PyPDF2==3.0.1
+
+# Ambiente
+python-dotenv==1.0.0
+
+# Deploy
+gunicorn==21.2.0
+
+# Básicos
+requests==2.31.0
+
+# Autenticação e Segurança
+PyJWT==2.8.0
+bcrypt==4.1.2
+
+# Google OAuth2
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
